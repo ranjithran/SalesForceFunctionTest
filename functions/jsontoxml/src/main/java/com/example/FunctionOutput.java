@@ -3,13 +3,13 @@ package com.example;
 import java.util.List;
 
 public class FunctionOutput {
-  private final List<Account> accounts;
-
-  public FunctionOutput(List<Account> accounts) {
-    this.accounts = accounts;
+ 
+  String jsonString;
+  public FunctionOutput(String val) {
+    this.jsonString = val;
   }
 
-  public List<Account> getAccounts() {
-    return accounts;
+  public String getAccounts() {
+    return jsonString;
   }
 }
