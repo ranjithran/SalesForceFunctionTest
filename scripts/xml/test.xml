@@ -1,3 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Envelope>
-</Envelope>
+<default>
+    <Row>
+        <id>5001</id>
+        <type>None</type>
+    </Row>
+    <Row>
+        <id>5002</id>
+        <type>Glazed</type>
+    </Row>
+    <Row>
+        <id>5005</id>
+        <type>Sugar</type>
+    </Row>
+    <Row>
+        <id>5007</id>
+        <type>PowderedSugar</type>
+    </Row>
+    <Row>
+        <id>5006</id>
+        <type>ChocolatewithSprinkles</type>
+    </Row>
+    <Row>
+        <id>5003</id>
+        <type>Chocolate</type>
+    </Row>
+    <Row>
+        <id>5004</id>
+        <type>Maple</type>
+    </Row>
+</default>
