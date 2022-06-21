@@ -18,8 +18,8 @@ public with sharing class JsonToXml {
 @Parameter      : apexObject = Apex object to serialize into XML
 @Returns        : XML String
 */
-	public String apexObjectToXML(Objecy apexObject) {
-		jsonToXmls(JSON.serialize(apexObject));
+	public String apexObjectToXML(Object apexObject) {
+		return jsonToXmls(JSON.serialize(apexObject));
 	}
 	/*
 @Description    : Serializes the json String to XML string
